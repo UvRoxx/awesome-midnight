@@ -135,6 +135,10 @@ This project is licensed under the MIT License — see the [LICENSE](LICENSE) fi
 
 - **[Utkarsh Varma](https://github.com/UvRoxx)** — Creator & Lead Developer
 
+### Built By
+
+**[Webisoft Development Labs](https://webisoft.com)** — Web3 Development Studio
+
 ### Resources
 
 - [Midnight Network](https://midnight.network) — Official Midnight website
