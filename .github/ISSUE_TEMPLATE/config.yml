@@ -1,0 +1,11 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Midnight Documentation
+    url: https://docs.midnight.network
+    about: Official Midnight documentation
+  - name: Midnight Discord
+    url: https://discord.gg/midnight
+    about: Join the Midnight community Discord for general questions
+  - name: GitHub Discussions
+    url: https://github.com/UvRoxx/awesome-midnight/discussions
+    about: Ask questions and discuss ideas with the community

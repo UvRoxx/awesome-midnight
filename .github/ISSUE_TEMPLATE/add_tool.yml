@@ -1,0 +1,144 @@
+name: Add Tool
+description: Submit a developer tool to be added to the directory
+title: "[Tool]: "
+labels: ["tool-submission", "triage"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for submitting a tool to Awesome Midnight! Please provide the following information.
+
+  - type: input
+    id: name
+    attributes:
+      label: Tool Name
+      description: The name of the tool
+      placeholder: e.g., Midnight CLI
+    validations:
+      required: true
+
+  - type: textarea
+    id: description
+    attributes:
+      label: Short Description
+      description: A brief one-line description of the tool (max 100 characters)
+      placeholder: A command-line interface for interacting with Midnight blockchain
+    validations:
+      required: true
+
+  - type: textarea
+    id: long-description
+    attributes:
+      label: Long Description
+      description: A detailed description of what the tool does and its main features
+      placeholder: |
+        Describe the tool in detail:
+        - What problem does it solve?
+        - Who is the target audience?
+        - What are its main features?
+    validations:
+      required: true
+
+  - type: dropdown
+    id: category
+    attributes:
+      label: Category
+      description: What category best describes this tool?
+      options:
+        - Frameworks
+        - Wallet
+        - AI / Dev Tooling
+        - SDK
+        - CLI
+        - Research
+        - Other
+    validations:
+      required: true
+
+  - type: dropdown
+    id: status
+    attributes:
+      label: Status
+      description: Current development status of the tool
+      options:
+        - Complete (production ready)
+        - In Progress (actively developed)
+        - Beta (testing phase)
+        - Planned (not yet started)
+    validations:
+      required: true
+
+  - type: input
+    id: github
+    attributes:
+      label: GitHub Repository
+      description: Link to the GitHub repository
+      placeholder: https://github.com/org/repo
+    validations:
+      required: true
+
+  - type: input
+    id: demo
+    attributes:
+      label: Demo / Documentation URL
+      description: Link to a live demo or documentation (optional)
+      placeholder: https://docs.example.com
+    validations:
+      required: false
+
+  - type: input
+    id: organization
+    attributes:
+      label: Organization / Author
+      description: Who created or maintains this tool?
+      placeholder: e.g., Webisoft, Individual Name
+    validations:
+      required: true
+
+  - type: textarea
+    id: features
+    attributes:
+      label: Key Features
+      description: List the main features (one per line)
+      placeholder: |
+        - Feature 1
+        - Feature 2
+        - Feature 3
+    validations:
+      required: true
+
+  - type: dropdown
+    id: relation
+    attributes:
+      label: Your Relation to This Tool
+      description: How are you related to this tool?
+      options:
+        - I am the creator/maintainer
+        - I am a contributor
+        - I am a user
+        - I found it and think it's useful
+    validations:
+      required: true
+
+  - type: textarea
+    id: additional
+    attributes:
+      label: Additional Information
+      description: Any other relevant information about the tool
+      placeholder: Any additional context...
+    validations:
+      required: false
+
+  - type: checkboxes
+    id: terms
+    attributes:
+      label: Checklist
+      options:
+        - label: This tool is related to Midnight blockchain development
+          required: true
+        - label: This tool is open source or has publicly accessible documentation
+          required: true
+        - label: I have verified the GitHub repository link is correct and accessible
+          required: true
+        - label: I have read the [Code of Conduct](https://github.com/UvRoxx/awesome-midnight/blob/main/CODE_OF_CONDUCT.md)
+          required: true

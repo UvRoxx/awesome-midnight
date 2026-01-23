@@ -124,7 +124,7 @@ export function SideNav() {
       {/* Bottom actions */}
       <div className="flex flex-col gap-2 items-center">
         <a
-          href="https://github.com/midnightntwrk"
+          href="https://github.com/UvRoxx/awesome-midnight"
           target="_blank"
           rel="noopener noreferrer"
           className="w-10 h-10 flex items-center justify-center rounded-lg text-muted-foreground hover:bg-muted hover:text-foreground transition-all duration-200"
