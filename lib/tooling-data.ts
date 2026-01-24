@@ -32,6 +32,76 @@ export const existingTools: Tool[] = [
     ]
   },
   {
+    name: "Midnight Setup",
+    slug: "midnight-setup",
+    area: "Frameworks",
+    status: "complete",
+    description: "Complete development setup for building Midnight Network dApps, with API, CLI, and example UI",
+    longDescription: "A full-stack setup package for Midnight dApp development. Provides a TypeScript API for deploying and joining contracts, CLI utilities, a React example app, and built-in Lace Beta Wallet integration.",
+    organizations: ["MeshJS"],
+    github: "https://github.com/MeshJS/midnight-setup",
+    demo: "https://www.npmjs.com/package/@meshsdk/midnight-setup",
+    features: [
+      "TypeScript API with deploy/join helpers",
+      "CLI utilities for development tasks",
+      "React example app",
+      "Lace Beta Wallet integration",
+      "Monorepo structure (API, CLI, UI)"
+    ]
+  },
+  {
+    name: "Midnight Contracts Wizard",
+    slug: "midnight-contracts-wizard",
+    area: "Tooling",
+    status: "complete",
+    description: "Ready-to-use Midnight smart contracts with NatSpec docs, build tooling, and ZK circuits",
+    longDescription: "A curated collection of Midnight smart contracts (tokenization, staking, identity, oracle, lending) with full NatSpec documentation, automated compilation scripts, and multi-contract build configuration for production use.",
+    organizations: ["MeshJS"],
+    github: "https://github.com/MeshJS/midnight-contracts-wizard",
+    demo: "https://www.npmjs.com/package/@meshsdk/midnight-contracts-wizard",
+    features: [
+      "Compact contracts (Tokenization, Staking, Identity, Oracle, Lending & Borrowing)",
+      "NatSpec documentation throughout",
+      "Automated compilation scripts",
+      "Multi-contract configuration",
+      "Multi-call configuration"
+    ]
+  },
+  {
+    name: "Midnight Proof Server",
+    slug: "midnight-proof-server",
+    area: "Infrastructure",
+    status: "complete",
+    description: "Dockerized Midnight proof server with zk parameters pre-downloaded and ready to run",
+    longDescription: "A Docker image that extends the official Midnight proof server by bundling zk parameters at build time, removing the need for runtime downloads or mounted volumes.",
+    organizations: ["MeshJS"],
+    github: "https://github.com/MeshJS/midnight-proof-server",
+    demo: "https://hub.docker.com/repository/docker/meshsdk/midnight-proof-server",
+    features: [
+      "Pre-downloaded zk parameters",
+      "Based on official proof server image",
+      "Ready-to-run Docker image",
+      "Works with docker run or docker-compose"
+    ]
+  },
+  {
+    name: "Midnight Escrow System",
+    slug: "midnight-escrow-system",
+    area: "Protoype",
+    status: "complete",
+    description: "Escrow system on Midnight with contract, API, UI, and infrastructure tooling",
+    longDescription: "A full escrow dApp setup for Midnight Network, including Compact contract, API layer, React UI, and CLI scripts to run testnet or standalone infrastructure.",
+    organizations: ["MeshJS"],
+    github: "https://github.com/MeshJS/midnight-escrow-system",
+    features: [
+      "Compact escrow contract",
+      "API + React UI included",
+      "CLI scripts for infra and funding",
+      "Testnet and standalone modes",
+      "ZK parameter download workflow"
+    ]
+  },
+  {
     name: "Mobile SDK",
     slug: "mobile-sdk",
     area: "Wallet",
