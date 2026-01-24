@@ -1,6 +1,7 @@
 import { HeroSection } from "@/components/hero-section"
 import { FeaturedToolsSection } from "@/components/featured-tools-section"
 import { TutorialsSection } from "@/components/tutorials-section"
+import { ContributorsSection } from "@/components/contributors-section"
 import { ResourcesSection } from "@/components/resources-section"
 import { BlogSection } from "@/components/blog-section"
 import { SideNav } from "@/components/side-nav"
@@ -17,6 +18,7 @@ export default function Page() {
         <FeaturedToolsSection />
         <BlogSection />
         <TutorialsSection />
+        <ContributorsSection />
         <ResourcesSection />
         <Footer />
       </div>
