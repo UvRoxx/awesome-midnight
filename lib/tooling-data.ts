@@ -87,7 +87,7 @@ export const existingTools: Tool[] = [
   {
     name: "Midnight Escrow System",
     slug: "midnight-escrow-system",
-    area: "Protoype",
+    area: "Prototype",
     status: "complete",
     description: "Escrow system on Midnight with contract, API, UI, and infrastructure tooling",
     longDescription: "A full escrow dApp setup for Midnight Network, including Compact contract, API layer, React UI, and CLI scripts to run testnet or standalone infrastructure.",
@@ -199,5 +199,8 @@ export const areaIcons: Record<string, string> = {
   "Frameworks": "cube",
   "Wallet": "wallet",
   "AI / Dev Tooling": "sparkles",
-  "Research": "beaker"
+  "Research": "beaker",
+  "Tooling": "wrench",
+  "Infrastructure": "server",
+  "Prototype": "flask"
 }
