@@ -131,10 +131,6 @@ This project is licensed under the MIT License — see the [LICENSE](LICENSE) fi
 
 ## Acknowledgments
 
-### Maintainers
-
-- **[Utkarsh Varma](https://github.com/UvRoxx)** — Creator & Lead Developer
-
 ### Built By
 
 **[Webisoft Development Labs](https://webisoft.com)** — Web3 Development Studio
@@ -144,6 +140,11 @@ This project is licensed under the MIT License — see the [LICENSE](LICENSE) fi
 - [Midnight Network](https://midnight.network) — Official Midnight website
 - [Midnight Documentation](https://docs.midnight.network) — Official docs
 - [Midnight GitHub](https://github.com/midnightntwrk) — Official repositories
+
+### Contributors
+
+- **[Utkarsh Varma](https://github.com/UvRoxx)** — Creator & Lead Developer
+- **[Luis Lucena](https://github.com/luislucena16)** — Contributor
 
 ---
 
