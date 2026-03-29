@@ -10,6 +10,17 @@ gsap.registerPlugin(ScrollTrigger)
 
 const linkGroups = [
   {
+    title: "1AM Ecosystem",
+    links: [
+      { label: "1AM Wallet", href: "https://1am.xyz" },
+      { label: "ProofStation API", href: "https://api.1am.xyz/docs" },
+      { label: "ZKMint", href: "https://zkmint.1am.xyz" },
+      { label: "1AM Explorer", href: "https://explorer.1am.xyz" },
+      { label: "AI Builder", href: "https://build.1am.xyz" },
+      { label: "DApp Connector Docs", href: "https://1am.xyz/developers" },
+    ],
+  },
+  {
     title: "Official",
     links: [
       { label: "Midnight.network", href: "https://midnight.network" },
@@ -26,17 +37,10 @@ const linkGroups = [
     ],
   },
   {
-    title: "Development",
-    links: [
-      { label: "Compact SDK", href: "https://docs.midnight.network" },
-      { label: "API Reference", href: "https://docs.midnight.network" },
-      { label: "Examples", href: "https://docs.midnight.network" },
-    ],
-  },
-  {
     title: "Ecosystem",
     links: [
-      { label: "Lace Wallet", href: "https://www.lace.io" },
+      { label: "Dominion", href: "https://dominion.fun" },
+      { label: "Agent Skills", href: "https://github.com/UvRoxx/midnight-agent-skills" },
       { label: "Cardano", href: "https://cardano.org" },
       { label: "IOG", href: "https://iohk.io" },
     ],

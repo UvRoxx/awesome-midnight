@@ -7,15 +7,15 @@ export interface Contributor {
 
 export const contributors: Contributor[] = [
   {
+    name: "UvRoxx",
+    github: "UvRoxx",
+    x: "UvRoxx",
+    avatar: "https://avatars.githubusercontent.com/UvRoxx",
+  },
+  {
     name: "Luis Lucena",
     github: "luislucena16",
     x: "_luisald",
     avatar: "https://avatars.githubusercontent.com/luislucena16",
-  },
-  {
-    name: "Utkarsh Varma",
-    github: "utkush",
-    x: "Utkush23",
-    avatar: "https://avatars.githubusercontent.com/utkush",
   },
 ]

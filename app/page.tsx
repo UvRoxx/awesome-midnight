@@ -1,4 +1,5 @@
 import { HeroSection } from "@/components/hero-section"
+import { OneAmSection } from "@/components/one-am-section"
 import { FeaturedToolsSection } from "@/components/featured-tools-section"
 import { TutorialsSection } from "@/components/tutorials-section"
 import { ContributorsSection } from "@/components/contributors-section"
@@ -15,6 +16,7 @@ export default function Page() {
 
       <div className="relative z-10">
         <HeroSection />
+        <OneAmSection />
         <FeaturedToolsSection />
         <BlogSection />
         <TutorialsSection />

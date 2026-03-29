@@ -2,6 +2,14 @@ import Link from "next/link"
 import { NewsletterForm } from "./newsletter-form"
 
 const links = {
+  "1am": [
+    { name: "1AM Wallet", href: "https://1am.xyz", external: true },
+    { name: "ProofStation", href: "https://api.1am.xyz/docs", external: true },
+    { name: "ZKMint", href: "https://zkmint.1am.xyz", external: true },
+    { name: "Explorer", href: "https://explorer.1am.xyz", external: true },
+    { name: "AI Builder", href: "https://build.1am.xyz", external: true },
+    { name: "Dominion", href: "https://dominion.fun", external: true },
+  ],
   tools: [
     { name: "All Tools", href: "/tooling" },
     { name: "Agent Skills", href: "/tools/agent-skills" },
@@ -24,10 +32,32 @@ export function Footer() {
   return (
     <footer className="border-t border-border bg-card">
       <div className="max-w-7xl mx-auto px-6 md:px-12 lg:px-20 py-16">
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-12">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-6 gap-12">
           {/* Newsletter */}
           <div className="lg:col-span-2">
             <NewsletterForm />
+          </div>
+
+          {/* 1AM */}
+          <div>
+            <h4 className="font-semibold mb-4">1AM</h4>
+            <ul className="space-y-3">
+              {links["1am"].map((link) => (
+                <li key={link.name}>
+                  <a
+                    href={link.href}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-sm text-muted-foreground hover:text-foreground transition-colors inline-flex items-center gap-1"
+                  >
+                    {link.name}
+                    <svg className="w-3 h-3" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
+                      <path strokeLinecap="round" strokeLinejoin="round" d="M4.5 19.5l15-15m0 0H8.25m11.25 0v11.25" />
+                    </svg>
+                  </a>
+                </li>
+              ))}
+            </ul>
           </div>
 
           {/* Links */}

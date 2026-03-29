@@ -8,6 +8,7 @@ import { ThemeToggle } from "@/components/theme-toggle"
 
 const navItems = [
   { id: "hero", label: "Home", icon: "home" },
+  { id: "ecosystem", label: "1AM", icon: "star" },
   { id: "tools", label: "Tools", icon: "tools" },
   { id: "blog", label: "Blog", icon: "article" },
   { id: "tutorials", label: "Learn", icon: "book" },
