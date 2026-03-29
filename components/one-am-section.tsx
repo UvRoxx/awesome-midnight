@@ -1,6 +1,7 @@
 "use client"
 
 import { useRef, useEffect } from "react"
+import Image from "next/image"
 import gsap from "gsap"
 import { ScrollTrigger } from "gsap/ScrollTrigger"
 
@@ -184,11 +185,22 @@ export function OneAmSection() {
         {/* Section header */}
         <div ref={headerRef} className="mb-16">
           <div className="flex items-center gap-3 mb-4">
-            <div className="w-10 h-10 rounded-lg bg-foreground flex items-center justify-center">
-              <span className="text-background font-mono text-sm font-bold">1</span>
-            </div>
+            <Image
+              src="/1am-logo-dark.svg"
+              alt="1AM"
+              width={80}
+              height={24}
+              className="h-6 w-auto dark:hidden"
+            />
+            <Image
+              src="/1am-logo-light.svg"
+              alt="1AM"
+              width={80}
+              height={24}
+              className="h-6 w-auto hidden dark:block"
+            />
             <span className="font-mono text-xs uppercase tracking-widest text-muted-foreground">
-              1AM Ecosystem
+              Ecosystem
             </span>
           </div>
 

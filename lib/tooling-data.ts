@@ -13,112 +13,6 @@ export interface Tool {
 
 export const existingTools: Tool[] = [
   {
-    name: "1AM Wallet",
-    slug: "1am-wallet",
-    area: "Wallet",
-    status: "complete",
-    description: "Privacy-first browser wallet for Midnight with DApp Connector API, built-in ZK proving, and dust sponsorship — users pay zero gas",
-    longDescription: "The 1AM Wallet is a Chrome extension that provides seamless interaction with the Midnight Network. Features a DApp Connector API (window.midnight['1AM']), built-in ZK proving via ProofStation, automatic dust sponsorship so users never need gas tokens, and multi-network support across Preview, Preprod, and Mainnet.",
-    organizations: ["Webisoft"],
-    demo: "https://1am.xyz",
-    features: [
-      "DApp Connector API",
-      "Built-in ZK proving via ProofStation",
-      "Gas-free transactions (dust sponsorship)",
-      "Multi-network (Preview, Preprod, Mainnet)",
-      "Side panel support",
-      "Developer documentation"
-    ]
-  },
-  {
-    name: "1AM ProofStation",
-    slug: "1am-proofstation",
-    area: "Infrastructure",
-    status: "complete",
-    description: "Hosted ZK proof generation and dust sponsorship — sub-second proofs, free tier for the ecosystem",
-    longDescription: "ProofStation is a hosted ZK proving service for Midnight. Every transaction needs a ZK proof — ProofStation generates them in under 1 second and balances transactions with dust so users don't need gas tokens. Three API endpoints for Preview, Preprod, and Mainnet. DApps never call it directly; the wallet handles everything.",
-    organizations: ["Webisoft"],
-    demo: "https://api.1am.xyz/docs",
-    features: [
-      "Sub-second ZK proof generation",
-      "Automatic dust sponsorship",
-      "Three network endpoints",
-      "Free tier for ecosystem",
-      "Wallet-integrated (no direct API calls needed)"
-    ]
-  },
-  {
-    name: "ZKMint",
-    slug: "zkmint",
-    area: "Prototype",
-    status: "complete",
-    description: "Night-ID name service and ZK-powered token launchpad with bonding curves and optional privacy",
-    longDescription: "Register .night names on-chain with zero-knowledge proofs. Shared registry contracts on Preview and Preprod — users register, not deploy. Also features bonding curve token launches with optional privacy. Full source available as a starter template for developers.",
-    organizations: ["Webisoft"],
-    github: "https://github.com/webisoftSoftware/zk-mint",
-    demo: "https://zkmint.1am.xyz",
-    features: [
-      ".night name registration",
-      "ZK proof verification",
-      "Bonding curve token launches",
-      "Optional privacy mode",
-      "Shared registry contracts",
-      "Open source starter template"
-    ]
-  },
-  {
-    name: "1AM Explorer",
-    slug: "1am-explorer",
-    area: "Infrastructure",
-    status: "complete",
-    description: "Block explorer for Midnight Network — transactions, contracts, and blocks across all networks",
-    longDescription: "View transactions, contracts, and blocks across Preview, Preprod, and Mainnet. Supports deep linking with network parameter for easy sharing: explorer.1am.xyz/tx/{hash}?network=preview.",
-    organizations: ["Webisoft"],
-    demo: "https://explorer.1am.xyz",
-    features: [
-      "All networks supported",
-      "Transaction viewer",
-      "Contract explorer",
-      "Deep link support",
-      "Real-time updates"
-    ]
-  },
-  {
-    name: "1AM AI Builder",
-    slug: "1am-ai-builder",
-    area: "AI / Dev Tooling",
-    status: "beta",
-    description: "Write Midnight Compact smart contracts with AI — generate, compile, test, and deploy from the browser",
-    longDescription: "An AI-powered development environment for Midnight smart contracts. Write Compact contracts with AI assistance, compile them, test with simulators, and get deployment guides — all from the browser with no local setup required.",
-    organizations: ["Webisoft"],
-    demo: "https://build.1am.xyz",
-    features: [
-      "AI-powered contract generation",
-      "In-browser compilation",
-      "Simulator testing",
-      "Deployment guide",
-      "No local setup required"
-    ]
-  },
-  {
-    name: "Dominion",
-    slug: "dominion",
-    area: "Prototype",
-    status: "beta",
-    description: "On-chain poker with mental poker cryptography — provably fair card dealing with ZK proofs, no trusted dealer",
-    longDescription: "Mental poker cryptography with ZK proofs on Midnight. Provably fair card dealing without a trusted dealer. Features real-time gameplay with on-chain settlement, spectator mode, and AI agent opponents.",
-    organizations: ["Webisoft"],
-    demo: "https://dominion.fun",
-    features: [
-      "Mental poker protocol",
-      "ZK proof verification",
-      "No trusted dealer",
-      "Real-time gameplay",
-      "On-chain settlement",
-      "Spectator mode"
-    ]
-  },
-  {
     name: "Midnight Starter Template",
     slug: "midnight-starter-template",
     area: "Frameworks",
@@ -272,6 +166,100 @@ export const existingTools: Tool[] = [
       "midnight-infra-setup - Local infrastructure",
       "midnight-deploy - Deployment workflows",
       "midnight-test-runner - Testing utilities"
+    ]
+  },
+  {
+    name: "1AM Wallet",
+    slug: "1am-wallet",
+    area: "Wallet",
+    status: "complete",
+    description: "Privacy-first browser wallet for Midnight with DApp Connector API, built-in ZK proving, and dust sponsorship — users pay zero gas",
+    longDescription: "The 1AM Wallet is a Chrome extension that provides seamless interaction with the Midnight Network. Features a DApp Connector API (window.midnight['1AM']), built-in ZK proving via ProofStation, automatic dust sponsorship so users never need gas tokens, and multi-network support across Preview, Preprod, and Mainnet.",
+    organizations: ["Webisoft"],
+    demo: "https://1am.xyz",
+    features: [
+      "DApp Connector API",
+      "Built-in ZK proving via ProofStation",
+      "Gas-free transactions (dust sponsorship)",
+      "Multi-network (Preview, Preprod, Mainnet)",
+      "Side panel support",
+      "Developer documentation"
+    ]
+  },
+  {
+    name: "1AM ProofStation",
+    slug: "1am-proofstation",
+    area: "Infrastructure",
+    status: "complete",
+    description: "Hosted ZK proof generation and dust sponsorship — sub-second proofs, free tier for the ecosystem",
+    organizations: ["Webisoft"],
+    demo: "https://api.1am.xyz/docs",
+    features: [
+      "Sub-second ZK proof generation",
+      "Automatic dust sponsorship",
+      "Three network endpoints",
+      "Free tier for ecosystem"
+    ]
+  },
+  {
+    name: "ZKMint",
+    slug: "zkmint",
+    area: "Prototype",
+    status: "complete",
+    description: "Night-ID name service and ZK-powered token launchpad with bonding curves and optional privacy",
+    organizations: ["Webisoft"],
+    github: "https://github.com/webisoftSoftware/zk-mint",
+    demo: "https://zkmint.1am.xyz",
+    features: [
+      ".night name registration",
+      "ZK proof verification",
+      "Bonding curve token launches",
+      "Open source starter template"
+    ]
+  },
+  {
+    name: "1AM Explorer",
+    slug: "1am-explorer",
+    area: "Infrastructure",
+    status: "complete",
+    description: "Block explorer for Midnight Network — transactions, contracts, and blocks across all networks",
+    organizations: ["Webisoft"],
+    demo: "https://explorer.1am.xyz",
+    features: [
+      "All networks supported",
+      "Transaction viewer",
+      "Contract explorer",
+      "Deep link support"
+    ]
+  },
+  {
+    name: "1AM AI Builder",
+    slug: "1am-ai-builder",
+    area: "AI / Dev Tooling",
+    status: "beta",
+    description: "Write Midnight Compact smart contracts with AI — generate, compile, test, and deploy from the browser",
+    organizations: ["Webisoft"],
+    demo: "https://build.1am.xyz",
+    features: [
+      "AI-powered contract generation",
+      "In-browser compilation",
+      "Simulator testing",
+      "No local setup required"
+    ]
+  },
+  {
+    name: "Dominion",
+    slug: "dominion",
+    area: "Prototype",
+    status: "beta",
+    description: "On-chain poker with mental poker cryptography — provably fair card dealing with ZK proofs, no trusted dealer",
+    organizations: ["Webisoft"],
+    demo: "https://dominion.fun",
+    features: [
+      "Mental poker protocol",
+      "ZK proof verification",
+      "No trusted dealer",
+      "On-chain settlement"
     ]
   }
 ]
