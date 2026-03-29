@@ -15,7 +15,7 @@ const products = [
       "The privacy-first wallet for Midnight Network. DApp Connector API, built-in ZK proving via ProofStation, dust sponsorship so users pay zero gas. Multi-network support across Preview, Preprod, and Mainnet.",
     features: ["DApp Connector API", "Zero Gas Fees", "Built-in ZK Proving", "Multi-Network"],
     links: {
-      primary: { label: "Install", href: "https://1am.xyz/install-beta" },
+      primary: { label: "Chrome Web Store", href: "https://chromewebstore.google.com/detail/1am/bphnkdkcnfhompoegfpgnkidcjfbojjp" },
       secondary: { label: "Developer Docs", href: "https://1am.xyz/developers" },
     },
     icon: (
