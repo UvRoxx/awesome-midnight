@@ -19,8 +19,8 @@ export const existingTools: Tool[] = [
     status: "complete",
     description: "A starter template for building on Midnight Network with React frontend and smart contract integration",
     longDescription: "A comprehensive monorepo template combining React frontend with Midnight smart contracts. Features Turbo for build management, Vite-powered React app, CLI tools for blockchain interactions, and full TypeScript support.",
-    organizations: ["Edda Labs", "MeshJS"],
-    github: "https://github.com/MeshJS/midnight-starter-template",
+    organizations: ["Edda Labs", "Nebula Builders"],
+    github: "https://github.com/eddalabs/midnight-starter-template",
     demo: "https://counter.nebula.builders",
     features: [
       "Monorepo structure with Turbo",
